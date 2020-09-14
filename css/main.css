@@ -8,3 +8,59 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background: #ccc;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+img {
+  width: 5rem;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+hgroup {
+  width: 16rem;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+h4 {
+margin: 0;
+}
+
+a {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem 1rem .6rem;
+}
+
+p {
+  width: 24rem;
+  margin: 0;
+}
